@@ -2,9 +2,9 @@ package kakao.itstudy.oop;
 
 public class DataMain {
 	public static void main(String[] args) {
-		DataMain data1 = new Data();
+		DataMain data1 = new DataMain();
 		System.out.println(data1);
-		Data data2 = new Data();
+		Date data2 = new Date();
 		System.out.println(data2);
 	
 

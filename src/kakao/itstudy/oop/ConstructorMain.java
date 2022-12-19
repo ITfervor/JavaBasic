@@ -5,7 +5,7 @@ import java.util.Date;
 public class ConstructorMain {
 	public static void main() {
 		// 인스턴스 생성
-		Member member = new Member();
+		Member member = new Member(null, null, null, null, false, 0);
 		member.setEmail("dlwjdduq0@gmail.com");
 		member.setPassword("1234");
 		member.setMarried(false);
