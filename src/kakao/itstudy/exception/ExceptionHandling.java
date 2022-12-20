@@ -13,7 +13,7 @@ public class ExceptionHandling {
 		//상위 클래스의 예외처리 구문을 먼저 만들고
 		//아래에 하위클래스의 예외처리 구문을 만들면 컴파일 에러
 		//아래 예외처리구문이 dead code가 됨.
-		}catch(NullPointerException e) { //exception e 는 상 클래스 에러이므로 사용시 밑에 있는 예외가 오류
+		}catch(NullPointerException e) { //exception e 는 상위 클래스 에러이므로 사용시 밑에 있는 예외가 오류
 			System.out.println("널 속성이나 메서드를 호출하면 예외 발생");
 		}
 		catch(ArithmeticException e) {
